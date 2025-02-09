@@ -42,6 +42,7 @@ local s = "123456"
 string.byte(s, 1)
 s:byte(1) -- 49
 s:byte(1, -1) -- 49 50 51 52 53 54
+print(s:byte())
 
 -- 字符的ASCII转字符
 string.char(0x35, 0x36) -- 56
