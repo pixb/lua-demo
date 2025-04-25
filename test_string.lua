@@ -56,3 +56,11 @@ s:upper("abc")
 
 -- pack()字节打包
 local b = string.pack("<ii", 10, 20)
+
+--sub子串
+local s = ":h:h:h:h"
+print(s:sub(5))
+
+--match()匹配
+local s = "aaa/bbb"
+print(s:match(".*/(.*)"))

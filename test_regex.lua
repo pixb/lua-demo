@@ -15,3 +15,6 @@ s = "hello world from Lua"
 for w in s:gmatch("%a+") do
 	print(w)
 end
+
+s = "![631](/mnt/c/Users/pix/Pictures/631.jpg)"
+print(s:match("!%[(.-)%]"))
